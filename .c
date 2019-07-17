@@ -3,9 +3,9 @@ int main()
 {
 int a,f=0,i;
 scanf("%d",&a);
-for(i=2,i<=a/2;i++)
+for(i=2;i<=a/2;i++)
 {
-if(n%i==0)
+if(a%i==0)
 {
 f=1;
 break;
